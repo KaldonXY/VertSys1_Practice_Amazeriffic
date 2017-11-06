@@ -1,3 +1,7 @@
+body {
+  background: #f9e933;
+}
+
 /*The min-width property makes it so that if the browser
 is resized to a viewport smaller than 855 px, the remaining
 part of the page will be hidden from view.*/
@@ -5,8 +9,9 @@ header, main, footer {
   min-width: 855px;
 }
 
-body {
-  background: #f9e933;
+header .container, main .container, footer .container {
+  max-width: 855px;
+  margin: auto;
 }
 
 header {
